@@ -1,0 +1,28 @@
+main{
+    padding: 5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* MAIN CONTENT */
+main .main-content {
+    display: flex;
+    flex-direction: column;
+}
+main .main-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 2%;
+}
+
+main .main-content .text {
+    margin-bottom: 10%;
+}
+
+main .main-content .text p {
+    width: 75%;
+    font-size: 1.0em;
+    font-weight: 300;
+
+}
